@@ -10,3 +10,5 @@
 - How to enable static website hosting in S3  
 - The difference between Object URL and Website Endpoint  
 - Why we disable ACLs and use bucket policies instead  
+
+![My S3 Website Screenshot](screenshot_website.png)
