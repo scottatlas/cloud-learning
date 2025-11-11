@@ -57,3 +57,6 @@ CI/CD means: Code push → automatic deployment → no manual upload needed.`
 ### ☁️ Files Uploaded to S3
 
 ![S3 Bucket](./screenshot1.png)
+
+### 🌐 CloudFront Test
+![CloudFront Page](./screenshot2.png)
