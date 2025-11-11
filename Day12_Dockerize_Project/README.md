@@ -52,31 +52,33 @@ S3: scott-static-site-demo
 S3: scottyang-test-bucket
 ```
 
-## 🧰 Optional Commands
+## 🧰 Container Management
 ```
-# 🧱 List all Docker images
-docker images
-
-# 📦 List all containers (including stopped ones)
+# List running and stopped containers
 docker ps -a
 
-# 📜 View logs of a running or exited container
+# View container logs (follow mode)
 docker logs -f automation-demo
 
-# ⛔ Stop a container
+# Stop and remove container
 docker stop automation-demo
-
-# ❌ Remove a container (force)
 docker rm -f automation-demo
 
-# 🧽 Remove a specific image
-docker rmi <image_name>
+```
 
-# 🧹 Clean up dangling intermediate layers
+## 🧩Image Management
+```
+# List all images
+docker images
+
+# Remove specific image
+docker rmi aws_automation:v1
+
+# Remove multiple images at once
+docker rmi aws_automation:v1 nginx:trixie-perl
+
+# Clean up dangling intermediate layers
 docker image prune -f
-
-# 💣 Remove everything not in use (⚠️ Be careful)
-docker system prune -a
 ```
 
 ## 📦 Publish to Docker Hub
