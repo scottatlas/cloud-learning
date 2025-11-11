@@ -41,9 +41,6 @@ This repository documents my **2-month Cloud Support / Junior DevOps** learning 
 ---
 
 ## 🗂️ Next Steps
-- [ ] Add CloudFront configuration (Day 6) once AWS verification completes  
-- [ ] Begin boto3 automation project (Day 10)  
-- [ ] Create Dockerized version of automation manager  
 - [ ] Configure CI/CD deployment pipeline  
 - [ ] Add screenshots, logs, and final summary report  
 
