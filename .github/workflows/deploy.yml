@@ -3,6 +3,10 @@ name: Deploy to S3
 on:
   push:
     branches: [ main ]
+    paths:
+      - "Day13_CICD_GitHub_Actions/**"
+      - ".github/workflows/deploy.yml"
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -21,3 +25,7 @@ jobs:
       - name: Sync to S3
         run: |
           aws s3 sync Day13_CICD_GitHub_Actions s3://scott-static-site-demo --delete --exclude ".github/*"
+      
+      - name: Verify uploaded objects
+        run: |
+          aws s3 ls s3://scott-static-site-demo --recursive --human-readable --summarize
