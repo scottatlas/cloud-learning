@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scott's CI/CD Deployment</title>
+  <style>
+    :root {
+      --bg: linear-gradient(135deg, #4f7df3, #1e3c72);
+      --card-bg: rgba(255, 255, 255, 0.1);
+      --text-color: #fff;
+      --accent: #ffd166;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text-color);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.6rem;
+    }
+    p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+    .card {
+      background: var(--card-bg);
+      padding: 2rem 3rem;
+      border-radius: 1rem;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(10px);
+      animation: fadeIn 1.2s ease;
+    }
+    .badge {
+      display: inline-block;
+      background: var(--accent);
+      color: #333;
+      padding: 0.3rem 0.8rem;
+      border-radius: 1rem;
+      font-size: 0.9rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(15px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9rem;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge">Day 13</div>
+    <h1>🚀 CI/CD Deployment Successful!</h1>
+    <p>This site was deployed automatically via <strong>GitHub Actions → AWS S3 → CloudFront</strong>.</p>
+  </div>
+  <footer>© 2025 Scott Yang | Cloud Support Learning Journey</footer>
+</body>
+</html>
