@@ -20,8 +20,8 @@ This repository documents my **2-month Cloud Support / Junior DevOps** learning 
 |-----|--------|--------------|---------|
 | 8 | Python Basics | Variables, loops, input, and calculations | ✅ Completed |
 | 9 | File & JSON Handling | File operations and JSON serialization | ✅ Completed |
-| 10 | boto3 Connection | Connect to AWS via boto3 (list S3 buckets, EC2 instances) | 🚀 In Progress |
-| 11–14 | Automation + Logging | Automate EC2 start/stop, S3 uploads with error handling and logs | ⏳ Coming Next |
+| 10 | boto3 Connection | Connect to AWS via boto3 (list S3 buckets, EC2 instances) | ✅ Completed |
+| 11–14 | Automation + Logging | Automate EC2 start/stop, S3 uploads with error handling and logs | 🚀 In Progress |
 
 ---
 
