@@ -36,7 +36,7 @@ jobs:
           aws-region: ap-southeast-2
       - name: Sync to S3
         run: |
-          aws s3 sync Day13_CICD_GitHub_Actions s3://scott-static-site-demo --delete
+          aws s3 sync Day13_CICD_GitHub_Actions s3://scott-static-site-demo
 ```
 
 ## 🧠 Key Takeaways
@@ -60,3 +60,12 @@ CI/CD means: Code push → automatic deployment → no manual upload needed.`
 
 ### 🌐 CloudFront Test
 ![CloudFront Page](./screenshot2.png)
+
+## 🧭 Note on CloudFront Caching
+After deploying updates to S3, changes may not appear immediately on the CloudFront URL.
+This is because CloudFront uses edge caching to speed up delivery by storing copies of content.
+You can either:
+1. Wait for the cache to expire (usually within 24 hours), or
+2. Manually refresh it by creating an Invalidation in the CloudFront console (/*).
+
+✅ The new files are already in S3 — CloudFront just needs time (or a manual refresh) to fetch the latest version.
