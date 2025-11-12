@@ -1,0 +1,5 @@
+[OK] Session Created ('ap-southeast-2', 'default')
+[OK] STS Identity {'UserId': 'AIDA4ZV65YWXNJZ4LBMQR', 'Account': '879794963886', 'Arn': 'arn:aws:iam::879794963886:user/scott-admin', 'ResponseMetadata': {'RequestId': 'c0faf80a-02ad-4280-8a4e-dcd91b6863ca', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': 'c0faf80a-02ad-4280-8a4e-dcd91b6863ca', 'x-amz-sts-extended-request-id': 'MTphcC1zb3V0aGVhc3QtMjpTOjE3NjI5ODc1NjU5Mzk6UjpWUzJqNnNQYQ==', 'content-type': 'text/xml', 'content-length': '408', 'date': 'Wed, 12 Nov 2025 22:46:05 GMT'}, 'RetryAttempts': 0}}
+[OK] S3 Buckets ['scott-boto3-demo-bucket', 'scott-static-site-demo', 'scottyang-test-bucket']
+[OK] EC2 Instances ['i-0d0c06486b6e1b27d']
+[OK] CloudWatch Alarms ['EC2-CPU-HIGH-i-0d0c06486b6e1b27d']

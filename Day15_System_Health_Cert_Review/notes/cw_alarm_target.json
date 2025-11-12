@@ -1,0 +1,37 @@
+{
+    "MetricAlarms": [
+        {
+            "AlarmName": "EC2-CPU-HIGH-i-0d0c06486b6e1b27d",
+            "AlarmArn": "arn:aws:cloudwatch:ap-southeast-2:879794963886:alarm:EC2-CPU-HIGH-i-0d0c06486b6e1b27d",
+            "AlarmDescription": "Alarm when EC2 CPU > 20% (test)",
+            "AlarmConfigurationUpdatedTimestamp": "2025-11-12T00:15:31.934000+00:00",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:ap-southeast-2:879794963886:cloudwatch-alarms-scott"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "INSUFFICIENT_DATA",
+            "StateReason": "Insufficient Data: 1 datapoint was unknown.",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2025-11-12T00:36:23.765+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[],\"threshold\":60.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2025-11-12T00:31:00.000+0000\"}]}",
+            "StateUpdatedTimestamp": "2025-11-12T00:36:23.767000+00:00",
+            "MetricName": "CPUUtilization",
+            "Namespace": "AWS/EC2",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0d0c06486b6e1b27d"
+                }
+            ],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 60.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2025-11-12T00:36:23.767000+00:00"
+        }
+    ],
+    "CompositeAlarms": []
+}

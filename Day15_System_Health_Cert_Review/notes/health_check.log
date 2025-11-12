@@ -1,0 +1,4 @@
+[OK] STS Identity: Account=879794963886 Arn=arn:aws:iam::879794963886:user/scott-admin
+[OK] S3 Buckets: ['scott-boto3-demo-bucket', 'scott-static-site-demo', 'scottyang-test-bucket']
+[OK] EC2 Instances: ['i-0d0c06486b6e1b27d']
+[OK] CloudWatch Alarms (first 20): ['EC2-CPU-HIGH-i-0d0c06486b6e1b27d']

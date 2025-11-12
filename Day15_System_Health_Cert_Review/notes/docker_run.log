@@ -1,0 +1,6 @@
+EC2:  i-0d0c06486b6e1b27d stopped MySecondEC2
+S3:  scott-boto3-demo-bucket
+S3:  scott-static-site-demo
+S3:  scottyang-test-bucket
+[before] i-0d0c06486b6e1b27d state = stopped, name = MySecondEC2
+The instance is already stopped.
