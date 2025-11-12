@@ -17,7 +17,7 @@
 
 📁 File path: `Day15_System_Health_Cert_Review/artifacts/health_check.py`  
 📄 Output saved in: `notes/health_check.log`  
-📸 Screenshot: [health_check](./screenshots/Day15_health_check.png)
+📸 Screenshot: ![health_check](./screenshots/Day15_health_check.png)
 
 ---
 
@@ -28,8 +28,8 @@
 
 📄 CLI output: `notes/cw_alarms_list.json`  
 📸 Screenshots:  
-  - [alarm_cli](screenshots/Day15_alarm_cli.png)  
-  - [cloudwatch_console](screenshots/Day15_alarm.png)
+  - ![alarm_cli](screenshots/Day15_alarm_cli.png)  
+  - ![cloudwatch_console](screenshots/Day15_alarm.png)
 
 ---
 
@@ -42,7 +42,7 @@ docker run --rm -v ~/.aws:/root/.aws:ro -v $(pwd)/artifacts:/app/artifacts solis
 ```
 
 📄 Output log: notes/docker_health_check.log
-📸 Screenshot: [docker_healthcheck](screenshots/Day15_docker_healthcheck.png)
+📸 Screenshot: ![docker_healthcheck](screenshots/Day15_docker_healthcheck.png)
 
 ## 🧩 Step 4 – Build and Upload New Docker Image
 - Created a new lightweight image for system health checks
@@ -64,7 +64,7 @@ docker push soliscottude/aws-healthcheck:v1
 ```
 
 📦 Docker Hub: soliscottude/aws-healthcheck:v1
-📸 Screenshot: [docker_healthcheck_v1](screenshots/Day15_docker_healthcheck_v1.png)
+📸 Screenshot: ![docker_healthcheck_v1](screenshots/Day15_docker_healthcheck_v1.png)
 
 ## 🧩 **Step 5 – Final Summary**
 
