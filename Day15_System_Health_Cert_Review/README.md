@@ -95,6 +95,7 @@ Next up ➡️ **Day 16 – Mock Interview & Portfolio Completion.**
 ---
 
 ## 📁 **Folder Structure**
+```
 Day15_System_Health_Cert_Review/
 │
 ├── artifacts/
@@ -116,3 +117,4 @@ Day15_System_Health_Cert_Review/
 │ └── Day15_docker_healthcheck_v1.png
 │
 └── README.md
+```
